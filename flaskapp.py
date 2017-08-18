@@ -12,5 +12,9 @@ def index():
 def test():
     return render_template('test.html')
 
+@app.route('/xiu')
+def xiu():
+    return "hello xiu"
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='8080')
