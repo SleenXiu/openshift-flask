@@ -17,12 +17,13 @@ class DevelopmentConfig(BaseConfig):
     DEBUG = True
 
     MONGODB_SETTINGS = {
-        'db': 'mongodb',
-        'host': '172.30.52.88:27017',
-        'username': 'sleen',
-        'password': 'Sl990825.'
+        'db': 'xiudb',
+        'host': '172.30.51.104:27017',
+        'username': 'xiu',
+        'password': 'xiu'
     }
 
+
 config = {
-    'dev': DevelopmentConfig
+    'dev': DevelopmentConfig,
 }
