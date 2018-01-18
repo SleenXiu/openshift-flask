@@ -18,7 +18,7 @@ class DevelopmentConfig(BaseConfig):
 
     MONGODB_SETTINGS = {
         'db': 'xiudb',
-        'host': '172.30.51.104:27017',
+        'host': '172.30.180.73:27017',
         'username': 'xiu',
         'password': 'xiu'
     }
